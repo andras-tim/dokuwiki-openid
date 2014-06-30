@@ -43,14 +43,7 @@ class action_plugin_openid extends DokuWiki_Action_Plugin {
 	 */
 	function getInfo()
 	{
-		return array(
-			'author' => 'h6e.net',
-			'email'  => 'contact@h6e.net',
-			'date'   => '2011-02-15',
-			'name'   => 'OpenID plugin',
-			'desc'   => 'Authenticate on a DokuWiki with OpenID',
-			'url'    => 'http://h6e.net/dokuwiki/plugins/openid',
-		);
+		return confToHash(DOKU_PLUGIN . 'forcessllogin/plugin.info.txt');
 	}
 
 	/**

@@ -1,0 +1,7 @@
+base   openid
+author h6e.net, Andras Tim
+email  contact@h6e.net, andras.tim@gmail.com
+date   2014-06-30
+name   OpenID plugin
+desc   Authenticate on a DokuWiki with OpenID
+url    http://h6e.net/dokuwiki/plugins/openid
